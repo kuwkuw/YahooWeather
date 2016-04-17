@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>Weather</title>
+</head>
+<body class="container">
+
+    <div class="" data-component = "weather-page">
+        <div class="city-selector-container row" data-component="city-selector">
+            <div class="col-md-6">
+                <select class="form-control" id="city-selector" data-selector="city-selector">
+                    <option>Kharkiv</option>
+                    <option>Kiev</option>
+                    <option>Lviv</option>
+                    <option>Odessa</option>
+                </select>
+            </div>
+        </div>
+        <div class="weather-container">
+            <div class="row" data-component="weather">
+                <div class="col-md-4" data-selector="forecast"></div>
+                <div class="col-md-8" data-selector="now-weather"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/citySelector.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/page.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
