@@ -1,0 +1,54 @@
+
+.container{
+    color: #878787;
+}
+
+
+
+.description-wrp{
+    margin-top: 20px;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+
+.condition-wrp{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.icon{
+    height: 90px;
+}
+
+.temp{
+    font-size: 50px;
+    vertical-align: middle
+}
+
+.unit{
+    font-size: 25px;
+    vertical-align: super;
+}
+
+
+.day-forecast div{
+    width: 33.333%;
+    display: inline-block;
+}
+
+.high{
+    text-align: center;
+}
+
+.low{
+    margin-left: 20px;
+    color: #a5d6ff;
+    text-align: center;
+}
