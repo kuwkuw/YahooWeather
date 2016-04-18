@@ -17,10 +17,17 @@
     font-size: 20px;
 }
 
-
-.condition-wrp{
+.now-condition-wrp{
     margin-top: 20px;
+}
+
+.now-condition-wrp, .astronomy-wrp, .wind-wrp, .details-wrp{
     display: inline-block;
+}
+
+.details-wrp{
+    margin-left: 20px;
+    vertical-align: middle;
 }
 
 .icon{
